@@ -36,14 +36,14 @@ the end of the game, you must report on who won, how many “battles” and how 
 # Extra Functionality:
 1. Changing how a draw in “war” is handled
   
-  a. In this application, if “war” is not possible because of the lack of cards then alternate “war” will occur.
+  - In this application, if “war” is not possible because of the lack of cards then alternate “war” will occur.
   
-  b. the winner of the alternate “war” will be decided based on the top card suit
+  - the winner of the alternate “war” will be decided based on the top card suit
   
-  For example, player1 only has four cards left and the top card is the same as player2 in which “war” should have occurred.       However, because you cannot get the fourth card then the winner will be decided by comparing the suit of the top card (order from lowest to highest: Diamonds, Clubs, Hearts, Spades). Please refer to the Sample alternate “war” result scenarios in README.pdf file.
+For example, player1 only has four cards left and the top card is the same as player2 in which “war” should have occurred.       However, because you cannot get the fourth card then the winner will be decided by comparing the suit of the top card (order from lowest to highest: Diamonds, Clubs, Hearts, Spades). Please refer to the Sample alternate “war” result scenarios in README.pdf file.
   
 2. Making a particular type of card have special powers in a “battle” or “war”
 
-  a. Implemented in “war”
+  - Implemented in “war”
   
-  When “war” is not possible because of the lack of cards, the top card suit will be used to determine the winner/loser of the “war”.
+    - When “war” is not possible because of the lack of cards, the top card suit will be used to determine the winner/loser of the “war”.
